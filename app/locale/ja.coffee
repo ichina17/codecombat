@@ -1,17 +1,17 @@
 module.exports = nativeDescription: "日本語", englishDescription: "Japanese", translation:
   home:
-    slogan: "ゲームをプレイしてコードを学びましょう"
+    slogan: "遊んでコードを学びましょう！"
     no_ie: "大変申し訳ありませんが、ご利用のブラウザ（IE8以下）はサポートされていません。(ChromeやFirefoxをご利用ください)" # Warning that only shows up in IE8 and older
     no_mobile: "CodeCombat は携帯端末向けに制作されていないため、動作しない可能性があります。" # Warning that shows up on mobile devices
-    play: "ゲーム<br>スタート" # The big play button that opens up the campaign view.
-    old_browser: "ご利用のブラウザはCodeCombatを動作させるには古すぎるようです" # Warning that shows up on really old Firefox/Chrome/Safari
+    play: "ゲーム<br>スタート！" # The big play button that opens up the campaign view.
+    old_browser: "ご利用のブラウザのバージョンが古すぎるため、ご利用できないようです。" # Warning that shows up on really old Firefox/Chrome/Safari
     old_browser_suffix: "このまま進めることもできますが、正常動作は保証されません"
-    ipad_browser: "CodeCombat は、iPad のブラウザでは動作しません。しかし、iPad アプリが現在 Apple の承認待ちとなっています。"
-    campaign: "キャンペーンモード"
+    ipad_browser: "CodeCombat は、iPad のブラウザでは動作しません。（承認待ちとなっています。）"
+    campaign: "キャンペーン"
     for_beginners: "初心者向け"
     multiplayer: "マルチプレイヤー" # Not currently shown on home page
     for_developers: "開発者向け" # Not currently shown on home page.
-    or_ipad: "又はiPadでダウンロード"
+    or_ipad: "iPadでダウンロード"
 
   nav:
     play: "ゲームマップへ" # The top nav bar entry where players choose which levels to play
@@ -27,7 +27,7 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
     home: "ホーム"
     contribute: "コントリビュート"
     legal: "規約"
-    about: "CoCoについて"
+    about: "ここについて"
     contact: "お問い合わせ"
     twitter_follow: "フォロー"
     teachers: "教育関係者"
@@ -41,20 +41,20 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
 
   diplomat_suggestion:
     title: "CodeCombatを翻訳しましょう！" # This shows up when a player switches to a non-English language using the language selector.
-    sub_heading: "あなたの言語力が必要です。"
-    pitch_body: "CodeCombatは英語で開発されています。日本語でプレイしたい方がたくさんいますが、ゲームの多くはまだ英語のままです。もし、あなたが英語が得意であれば、外交官（翻訳者）として登録し、CodeCombatのレベルやサイトの翻訳にご協力ください。"
+    sub_heading: "あなたの助けが必要です。"
+    pitch_body: "CodeCombatは英語で開発されています。日本語で学びたい方がたくさんいますが、ゲームの多くは英語のままです。もし、あなたが英語が得意な方なら、外交官（翻訳者）として登録し、CodeCombatのサイト翻訳にご協力お願いします。"
     missing_translations: "翻訳が完了していない部分は、英語で表示されます。"
-    learn_more: "外交官について情報"
+    learn_more: "外交官についての情報"
     subscribe_as_diplomat: "外交官登録"
 
   play:
-    play_as: "としてプレー" # Ladder page
+    play_as: "としてプレイ" # Ladder page
     spectate: "観戦" # Ladder page
     players: "プレイヤー" # Hover over a level on /play
     hours_played: "プレイ時間" # Hover over a level on /play
     items: "アイテム" # Tooltip on item shop button from /play
     unlock: "アンロック" # For purchasing items and heroes
-    confirm: "ロックを解除？"
+    confirm: "ロックを解除しますか？"
     owned: "所有品" # For items you own
     locked: "ロック"
     purchasable: "購入可能" # For a hero you unlocked but haven't purchased
@@ -70,63 +70,63 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
     choose_inventory: "アイテムを装備"
     buy_gems: "ジェムを購入"
     subscription_required: "サブスクリプション必須"
-    older_campaigns: "古いキャンペーン"
-    anonymous: "名無しのプレイヤー"
+    older_campaigns: "終了済みキャンペーン"
+    anonymous: "名無しプレイヤー"
     level_difficulty: "難易度: "
-    campaign_beginner: "初心者のキャンペーン"
-    awaiting_levels_adventurer_prefix: "私たちは毎週新しいレベルをリリースします"
+    campaign_beginner: "初心者キャンペーン"
+    awaiting_levels_adventurer_prefix: "私たちは毎週新しいレベルをリリースします。"
     awaiting_levels_adventurer: "冒険者として登録すると、"
-    awaiting_levels_adventurer_suffix: "新たなレベルを最初に遊ぶ事ができます"
-    adjust_volume: "音量を調整する"
-    choose_your_level: "レベル選択" # The rest of this section is the old play view at /play-old and isn't very important.
-    adventurer_prefix: "別のレベルに移動することができます。レベルについて議論するにはこちら: "
+    awaiting_levels_adventurer_suffix: "新たなレベルを最初に遊ぶ事ができます。"
+    adjust_volume: "音量を調節する"
+    choose_your_level: "レベルを選択してください" # The rest of this section is the old play view at /play-old and isn't very important.
+    adventurer_prefix: "別のレベルに移動することができます。レベルについてはこちら: "
     adventurer_forum: "冒険者の掲示板"
     adventurer_suffix: ""
     campaign_old_beginner: "旧初級キャンペーン"
-    campaign_old_beginner_description: "プログラミングの魔法を学びましょう"
-    campaign_dev: "ランダムな難しいレベル"
-    campaign_dev_description: "遊びながらインタフェースを学ぼう"
+    campaign_old_beginner_description: "プログラミングの魔法を学ぼう！"
+    campaign_dev: "ランダム難関レベル"
+    campaign_dev_description: "遊びながらインターフェースを学ぼう！"
     campaign_multiplayer: "マルチプレイ・アリーナ"
-    campaign_multiplayer_description: "コーディングで他のプレイヤーに対して格闘しましょう"
+    campaign_multiplayer_description: "コーディングで他のプレイヤーと戦おう！"
     campaign_player_created: "プレイヤー作成レベル"
     campaign_player_created_description: "仲間のウィザード達の創造力との戦いに立ち向かいます"
     campaign_classic_algorithms: "クラシックアルゴリズム"
-    campaign_classic_algorithms_description: "コンピュータサイエンスで最も人気のあるアルゴリズムを学ぼう"
+    campaign_classic_algorithms_description: "コンピュータ言語で一番人気のある【アルゴリズム】を学ぼう！"
 
   share_progress_modal:
-    blurb: "あなたは進歩している！ CodeCombatでどんなに学んだかについて、誰かに伝えてください。"
-    email_invalid: "メールアドレスが無効です"
-    form_blurb: "下にメールアドレスを入力してください"
+    blurb: "あなたは進化している！ CodeCombatでなにを学んだか、拡散してください。"
+    email_invalid: "メールアドレスが無効です。"
+    form_blurb: "メールアドレスを入力してください。"
     form_label: "メールアドレス"
     placeholder: "メールアドレス"
-    title: "良くやった、弟子よ"
+    title: "良くやったな！弟子よ！"
 
   login:
-    sign_up: "アカウント登録"
-    log_in: "ログイン"
+    sign_up: "アカウント登録する"
+    log_in: "ログインする"
     logging_in: "ログイン中"
     log_out: "ログアウト"
     forgot_password: "パスワードをお忘れですか？"
     authenticate_gplus: "Google+を認証する"
-    load_profile: "Google+プロフィールをロード"
+    load_profile: "Google+プロフィールをロードする"
     finishing: "仕上げ中"
-    sign_in_with_facebook: "Facebookでログイン"
-    sign_in_with_gplus: "Google+でログイン"
+    sign_in_with_facebook: "Facebookでログインする"
+    sign_in_with_gplus: "Google+でログインする"
     signup_switch: "アカウントを作成しますか？"
 
   signup:
-    email_announcements: "メールでお知らせを受け取る"
+    email_announcements: "メールでお知らせを受け取る。"
     creating: "アカウントを作成しています..."
-    sign_up: "アカウント登録"
-    log_in: "パスワードでログイン"
-    social_signup: "あるいはFacebookやGoogle+でログイン:"
-    required: "ログインする必要があります"
+    sign_up: "アカウント登録する"
+    log_in: "ログインする"
+    social_signup: "FacebookやGoogle+でログインしますか？:"
+    required: "ログインする必要があります。"
     login_switch: "すでにアカウントをお持ちですか？"
 
   recover:
     recover_account_title: "パスワードを忘れた場合"
     send_password: "パスワードを送信する"
-    recovery_sent: "復旧メールが送信されました"
+    recovery_sent: "メールが送信されました。"
 
   items:
     primary: "武器"
@@ -139,7 +139,7 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
   common:
     back: "戻る" # When used as an action verb, like "Navigate backward"
     continue: "次へ" # When used as an action verb, like "Continue forward"
-    loading: "ロード中"
+    loading: "ロード中…"
     saving: "セーブ中..."
     sending: "送信中..."
     send: "送信"
@@ -176,7 +176,7 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
     review: "レビュー"
     version_history: "バージョン履歴"
     version_history_for: "バージョン履歴："
-    select_changes: "違いを見るには以下の二つの変更を選んで下さい"
+    select_changes: "変更を選んで下さい"
     undo_prefix: "取り消す"
     undo_shortcut: "(Ctrl+Z)"
     redo_prefix: "やり直す"
@@ -251,18 +251,18 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
     victory_title_prefix: ""
     victory_title_suffix: "クリア"
     victory_sign_up: "進行状況をセーブするにはアカウント登録をしてください"
-    victory_sign_up_poke: "あなたのコードをセーブしてみませんか? 無料アカウント登録!"
+    victory_sign_up_poke: "あなたのコードをセーブしてみませんか? 無料アカウント登録する!"
     victory_rate_the_level: "このレベルの評価: " # Only in old-style levels.
     victory_return_to_ladder: "ラダーに戻る"
     victory_play_continue: "コンテニュー"
     victory_saving_progress: "セーブ中"
     victory_go_home: "ホームに戻る" # Only in old-style levels.
     victory_review: "フィードバック" # Only in old-style levels.
-    victory_hour_of_code_done: "完了してよろしいですか?"
-    victory_hour_of_code_done_yes: "はい、構いません"
-    victory_experience_gained: "XP獲得"
-    victory_gems_gained: "ジェム獲得"
-    victory_new_item: "ニューアイテム"
+    victory_hour_of_code_done: "終了してよろしいですか?"
+    victory_hour_of_code_done_yes: "はい"
+    victory_experience_gained: "XP獲得！"
+    victory_gems_gained: "ジェム獲得！"
+    victory_new_item: "ニューアイテム！"
 #    victory_viking_code_school: "Holy smokes, that was a hard level you just beat! If you aren't already a software developer, you should be. You just got fast-tracked for acceptance with Viking Code School, where you can take your skills to the next level and become a professional web developer in 14 weeks."
 #    victory_become_a_viking: "Become a Viking"
     guide_title: "ガイド"
@@ -294,11 +294,11 @@ module.exports = nativeDescription: "日本語", englishDescription: "Japanese",
     time_goto: "行く："
     non_user_code_problem_title: "レベルをロードできません"
     infinite_loop_title: "無限ループが見つかりました"
-    infinite_loop_description: "最初のワールドを作るコードが終わりません。単に遅いか、無限ループになっているかでしょう。バグがあるのかもしれません。再試行してみたり、リセットしてデフォルトに戻すこともできます。もし直せないなら私たちに報告してください。"
-    check_dev_console: "開発者コンソールをみてなにが間違っているか見ることもできます。"
+    infinite_loop_description: "最初のワールドを作るコードが終わっていません。単に遅いか、無限ループになっているかでしょう。ブラウザを更新したり、リセットしてデフォルトに戻すこともできます。もし直せなかったら私たちに報告してください。"
+    check_dev_console: "開発者コンソールをみてなにが間違っているかを見ることもできます。"
     check_dev_console_link: "(説明書)"
-    infinite_loop_try_again: "再試行する"
-    infinite_loop_reset_level: "レベルをリセット"
+    infinite_loop_try_again: "再チャレンジする"
+    infinite_loop_reset_level: "レベルをリセットする"
     infinite_loop_comment_out: "マイコードをコメントアウト"
     tip_toggle_play: "Ctrl+Pで、プレイ／ポーズをトグルする"
     tip_scrub_shortcut: "Ctrl+[ と Ctrl+] で巻き戻し、早送りする" # {change}
